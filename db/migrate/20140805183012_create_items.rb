@@ -5,6 +5,6 @@ class CreateItems < ActiveRecord::Migration
       t.integer :inventory
       t.integer :price
       t.belongs_to :category
-   end
+    end
   end
 end
